@@ -1,0 +1,13 @@
+input_path: "./annual_reports"
+output_dir: "./annual_reports_markdown"
+min_chars: 300
+year: null
+
+# 是否输出按章节拆分文件
+write_chapter_files: true
+
+# 是否输出每份年报的分章节合并文件
+write_merged_file: true
+
+# 可用变量: {year}
+merged_filename_template: "{year}_combined.md"
